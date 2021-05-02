@@ -8,6 +8,5 @@ ntotal <- length(s)
 # sar-power fits a power model by means of non-linear least squares
 galap.power.sars <- sar_power(data=galap)
 summary(galap.power.sars)
-dev.new()
 windows()
 plot(galap.power.sars, ModTitle = "")
