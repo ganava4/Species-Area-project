@@ -25,3 +25,4 @@ lines(x.area,sest.nb.gnlr, col="red",lty="solid",lwd=2)
 legend("topright",c("Gaussian","Quasi-Poisson","Negbin"),
        title="Error distribution",lwd=2,col=c("dodgerblue2","green","red")) # Legend
 title(main="Species-area relation\nPower function fitted to the Galapagos data")
+detach(galap)
